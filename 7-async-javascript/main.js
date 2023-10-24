@@ -39,7 +39,7 @@ mySetTimeout(3000).then(() => {
 
 function makeToys() {
   return new Promise((resolve, reject) => {
-    mySetTimeout(3000) // 3 seconds delay
+    mySetTimeout(3000)
       .then(() => {
         if (Math.random() > 0.1) {
           resolve("undefected");
@@ -52,7 +52,7 @@ function makeToys() {
 
 function deliverToys(status) {
   return new Promise((resolve, reject) => {
-    mySetTimeout(2000) // 2 seconds delay
+    mySetTimeout(2000)
       .then(() => {
         if (status === "undefected") {
           resolve("Toys delivered");
@@ -65,7 +65,7 @@ function deliverToys(status) {
 
 function sellToys(status) {
   return new Promise((resolve, reject) => {
-    mySetTimeout(1000) // 1 second delay
+    mySetTimeout(1000)
       .then(() => {
         if (status === "Toys delivered" && Math.random() > 0.5) {
           resolve("Toys sold");
