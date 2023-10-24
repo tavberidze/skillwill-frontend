@@ -65,18 +65,14 @@ const averageBtn = document.getElementById('average-btn');
 const result = document.getElementById('result');
 
 averageBtn.addEventListener('click', () => {
-  if(typeof averageNumInput.value === 'number') {
-    const inputNumbers = averageNumInput.value.split(':');
-    const numbers = inputNumbers.map(num => parseInt(num));
-  
-    const sum = numbers.reduce((total, num) => total + num, 0);
-    const average = sum / numbers.length;
-  
-    result.innerText = `The averge of this numbers is equal to:  ${average}`
-    result.style.display = 'block';
-  } else {
-    alert('Only numbers are allowed');
-  }
+  const inputNumbers = averageNumInput.value.split(':');
+  const numbers = inputNumbers.map(num => parseInt(num));
+
+  const sum = numbers.reduce((total, num) => total + num, 0);
+  const average = sum / numbers.length;
+
+  result.innerText = `The averge of this numbers is equal to:  ${average}`
+  result.style.display = 'block';
 });
 
 
