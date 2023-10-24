@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practical Assignments</title>
+</head>
+
+<body>
+    <!-- Task 01 -->
+
+    <div class="modal" id="modal">
+        <h2>Modal Heading</h2>
+        <p><i>click outside of this window to close</i></p>
+    </div>
+    <button type="button" class="modal-btn" id="modal-btn">Click me to see a modal window</button>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Task 02 -->
+
+    <div class="color-picker-wrapper" id="color-picker-wrapper">
+        <div class="tooltip" id="tooltip">Available colors: red, blue, green, black, white</div>
+        <input type="text" name="color-picker-input" placeholder="choose a color" class="color-picker-input"
+            id="color-picker-input" />
+        <button class="submit-btn" id="submit-btn">Submit</button>
+    </div>
+
+    <!-- Task 03 -->
+
+    <div class="average-num-wrapper" id="average-num-wrapper">
+        <div class="result" id="result"></div>
+        <input class="average-num-input" id="average-num-input" type="text" name="average-num-input"
+            placeholder="calculate an average: 5:3:3:2">
+        <button class="average-btn" id="average-btn">Average</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
