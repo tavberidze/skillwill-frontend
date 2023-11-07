@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/skillwill-frontend/11-react-components/static/css/main.6d6420b8.css",
+    "main.js": "/skillwill-frontend/11-react-components/static/js/main.d986de90.js",
+    "static/js/787.c25aa669.chunk.js": "/skillwill-frontend/11-react-components/static/js/787.c25aa669.chunk.js",
+    "static/media/book-01.jpeg": "/skillwill-frontend/11-react-components/static/media/book-01.711da11969fe166fbc5d.jpeg",
+    "static/media/book-04.jpeg": "/skillwill-frontend/11-react-components/static/media/book-04.f3486dd3519072d424d6.jpeg",
+    "static/media/book-05.jpeg": "/skillwill-frontend/11-react-components/static/media/book-05.42c084429fc849f71a1f.jpeg",
+    "static/media/book-08.jpeg": "/skillwill-frontend/11-react-components/static/media/book-08.305b6df5d0c1e3f76bcc.jpeg",
+    "static/media/book-06.jpeg": "/skillwill-frontend/11-react-components/static/media/book-06.f969bb8e9808c9912fc1.jpeg",
+    "static/media/book-02.jpeg": "/skillwill-frontend/11-react-components/static/media/book-02.94f1e021c3eb613bfa33.jpeg",
+    "static/media/book-03.jpeg": "/skillwill-frontend/11-react-components/static/media/book-03.a8c13efef7856daa4026.jpeg",
+    "static/media/book-07.jpeg": "/skillwill-frontend/11-react-components/static/media/book-07.5674dc37761762d09f9b.jpeg",
+    "index.html": "/skillwill-frontend/11-react-components/index.html",
+    "main.6d6420b8.css.map": "/skillwill-frontend/11-react-components/static/css/main.6d6420b8.css.map",
+    "main.d986de90.js.map": "/skillwill-frontend/11-react-components/static/js/main.d986de90.js.map",
+    "787.c25aa669.chunk.js.map": "/skillwill-frontend/11-react-components/static/js/787.c25aa669.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d6420b8.css",
+    "static/js/main.d986de90.js"
+  ]
+}
