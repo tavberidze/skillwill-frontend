@@ -1,0 +1,27 @@
+import  imageOne  from './assets/book-01.jpeg'
+import  imageTwo  from './assets/book-02.jpeg'
+import  imageThree  from './assets/book-03.jpeg'
+import  imageFour  from './assets/book-04.jpeg'
+import  imageFive  from './assets/book-05.jpeg'
+import  imageSix  from './assets/book-06.jpeg'
+import  imageSeven  from './assets/book-07.jpeg'
+import  imageEight  from './assets/book-08.jpeg'
+
+
+export const data = [
+    { id:1, img: imageOne , author: 'Edith Wharton',title: 'Summer', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, chars: ['Charity Royall', 'Lucius Harney', 'Anabel Balch', 'Julia Hawes']},
+    
+    { id:2, img: imageTwo, author: 'Lafcadio Hearn',title: 'Of Ghosts and Goblins', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, chars: ['Monster', 'Ghoul', 'Vampire', 'Wolf']},
+
+    { id:3, img: imageThree, author: 'Jane Austen',title: 'Lady Susan', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, chars: ['Lady Susan Vernon', 'Frederica Vernon', 'Catherine Vernon', 'Alicia Johnson']}, 
+
+    { id:4, img: imageFour, author: 'O.Henry',title: 'The Gift of the Magi', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, chars: ['John McClure', 'Samuel Phillips', 'Penny Comms']}, 
+
+    { id:5, img: imageFive, author: 'Oscar Wilde',title: 'The Star-Child', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, characters: ['Lumberjack', 'Star Boy', 'Village Priest']}, 
+
+    { id:6, img: imageSix, author: 'Kathrine Mansfield',title: 'Bliss', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, characters: ['Bertha Young', 'Harry', 'Mary', 'Nanny']},
+
+    { id:7, img: imageSeven, author: 'Arthur Conan Doyle',title: `The Adventure of the Blue Carbuncle`, desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, characters: ['Felix Felton ', 'Norman Shelley', 'Carleton Hobbs']},
+
+    { id:8, img: imageEight, author: 'Alexander Pushkin',title: 'The Queen of Spades', desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`, characters: ['Natalya Petrovna Golitsyna', 'Hermann', 'Count of St. Germain']}
+]
