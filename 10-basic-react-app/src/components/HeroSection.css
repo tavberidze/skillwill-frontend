@@ -1,0 +1,30 @@
+.hero-container {
+    padding-top: 80px;
+    padding-bottom: 115px;
+    background-color: #DADBF1;
+    color: #fff;
+    display: block;
+}
+
+.hero-container-content {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.hero-container-heading {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: -4px;
+    font-weight: 400;
+    margin: 0 0 1rem;
+}
+
+.hero-container-input {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem;
+    box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+}
