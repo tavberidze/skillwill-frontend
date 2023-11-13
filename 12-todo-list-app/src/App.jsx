@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   handleAdd = () => {
-    const input = document.querySelector('.todo-list input');
+    const input = document.querySelector('input');
     const text = input.value.trim();
 
     if (text === '') return;
